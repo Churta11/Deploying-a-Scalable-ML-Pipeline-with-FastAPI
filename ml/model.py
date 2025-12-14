@@ -25,7 +25,7 @@ def train_model(X_train, y_train):
     """
     # TODO: implement the function
     model = RandomForestClassifier(
-        n_stimator = 200,
+        n_estimators= 200,
         random_state=42,
         n_jobs=-1
     )
